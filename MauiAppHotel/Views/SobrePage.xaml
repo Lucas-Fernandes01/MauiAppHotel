@@ -1,0 +1,58 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.SobrePage"
+             Title="Sobre"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="10"
+                             Spacing="30"
+                             HorizontalOptions="Center"
+                             VerticalOptions="Center">
+
+            
+           
+            <Label Text="Sobre o Aplicativo"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   HorizontalOptions="Center" />
+
+            
+            <Frame BackgroundColor="LightBlue"
+                   Padding="20"
+                   CornerRadius="9"
+                   BorderColor="Black"
+                   HasShadow="True"
+                   WidthRequest="340">
+
+                <VerticalStackLayout Spacing="12">
+
+                    <Label Text="Desenvolvedor:"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="Black" />
+                    <Label Text="Lucas Titonelli Fernandes"
+                           FontSize="18"
+                           TextColor="Red" />
+
+                    <Label Text="Ano de Desenvolvimento:"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="Black" />
+                    <Label Text="2025"
+                           FontSize="18"
+                           TextColor="Red" />
+
+                    <Label Text="Este aplicativo foi criado como parte de um projeto do curso técnico de Análise e Desenvolvimento de Sistemas."
+                           FontSize="16"
+                           TextColor="Black"
+                           HorizontalTextAlignment="Center" />
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
